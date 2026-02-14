@@ -1,0 +1,6 @@
+# Ignore raw ECG data
+data/raw/*
+
+# Keep the folder structure
+!data/raw/README.md
+!data/raw/.gitkeep

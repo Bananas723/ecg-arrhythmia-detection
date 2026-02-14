@@ -1,6 +1,4 @@
-# ==============================
 # Python
-# ==============================
 __pycache__/
 *.py[cod]
 *$py.class
@@ -25,36 +23,26 @@ var/
 .installed.cfg
 *.egg
 
-# ==============================
 # Virtual Environments
-# ==============================
 venv/
 .env/
 .env.bak/
 .venv/
 
-# ==============================
 # Jupyter Notebook
-# ==============================
 .ipynb_checkpoints
 
-# ==============================
 # IDEs / Editors
-# ==============================
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# ==============================
 # OS files
-# ==============================
 .DS_Store
 Thumbs.db
 
-# ==============================
-# Data (RAW files should not be versioned)
-# ==============================
+# Data
 data/raw/*
 !data/raw/README.md
 !data/raw/.gitkeep
